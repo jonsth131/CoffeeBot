@@ -1,0 +1,13 @@
+{
+  "eventName": "slack-push",
+  "url": "slack-webhook-url",
+  "requestType": "POST",
+  "json":
+  {
+    "channel": "#nethouse-iot",
+    "username": "CoffeeBot",
+    "text": "{{SPARK_EVENT_VALUE}}",
+    "icon_emoji": ":coffee:"
+  },
+  "mydevices": true
+}
